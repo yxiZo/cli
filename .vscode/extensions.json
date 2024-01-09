@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "vue.volar",
+        "vue.vscode-typescript-vue-plugin",
+        "mikestead.dotenv",
+        "naumovs.color-highlight",
+        "bradlc.vscode-tailwindcss",
+        "wayou.vscode-todo-highlight",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}
