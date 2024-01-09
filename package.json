@@ -1,0 +1,29 @@
+{
+  "name": "@yxizo/cli",
+  "version": "1.0.0",
+  "description": "self use frontend cli",
+  "type": "module",
+  "bin": {},
+  "files": [
+    "outputfile.cjs"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "zx ./scripts/build.mjs",
+    "prepublishOnly": "zx ./scripts/prepublish.mjs",
+    "format": "prettier --write ."
+  },
+  "homepage": "",
+  "keywords": [],
+  "author": "yxizo <redbonestone123@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ejs": "^3.1.9",
+    "esbuild": "^0.19.11",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2",
+    "zx": "^7.2.3"
+  }
+}
