@@ -1,1 +1,13 @@
-{}
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "baseUrl": ".", // root of your "paths" below. Required if "paths" is defined
+    "paths": {
+      "@/*": ["./"],
+      "@utils/*": ["./utils/*.ts"]
+    },
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    // 其他选项...
+  }
+}
